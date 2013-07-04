@@ -16,3 +16,6 @@
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = git@github.com:vim-scripts/tComment.git
+[submodule "bundle/abolish"]
+	path = bundle/abolish
+	url = git@github.com:tpope/vim-abolish.git
