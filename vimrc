@@ -9,14 +9,10 @@ filetype plugin on
 filetype indent on
 syntax on
 
+source ~/.vim/config/ui.vim
+source ~/.vim/config/edit.vim
+source ~/.vim/config/autocomands.vim
 " source ~/.vim/__settings__/functions.vim
 " source ~/.vim/__settings__/autocomands.vim
 " source ~/.vim/__settings__/options.vim
 " source ~/.vim/__settings__/keymaps.vim
-
-colorscheme mustang
-" let g:Powerline_theme = 'solarized16'
-" let g:Powerline_colorscheme = 'solarized256'
-" let g:Powerline_stl_path_style = 'full'
-" let g:Powerline_dividers_override = ['>>', '>', '<<', '<']
-" let g:Powerline_symbols = 'unicode'
