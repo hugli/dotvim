@@ -20,6 +20,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+nmap T y$
+runtime! macros/matchit.vim
 
 call tcomment#DefineType('cmusrc', '# %s')
 let g:vimwiki_list = [{'path': '~/.vimwiki/', 'path_html': '~/.vimwiki/html/', 'auto_export': 1}]
