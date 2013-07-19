@@ -8,8 +8,6 @@ set foldenable                  " enable folding
 set foldlevelstart=0            " start out with everything folded
 set foldmethod=manual
 set foldtext=MyFoldText()
-set hlsearch
-set incsearch
 set laststatus=2
 set linebreak
 set listchars=tab:>-,trail:·,eol:$,extends:#,nbsp:.,precedes:@

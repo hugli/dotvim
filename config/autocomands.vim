@@ -105,8 +105,14 @@ if has("autocmd")
         autocmd filetype textile syntax region frontmatter start=/\%^---$/ end=/^---$/
         autocmd filetype textile highlight link frontmatter Comment
     augroup end "}}}
+
+    augroup temporary_files "{{{
+        au!
+
+        au BufNewFile,BufRead /tmp/*,/private/tmp/* setlocal noundofile
+    augroup end "}}}
+
+
 endif
-
-
 
 " vim:foldmethod=marker
