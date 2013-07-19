@@ -76,6 +76,7 @@ nnoremap <silent> <leader>w  : set wrap!<CR>
 nnoremap <silent> <leader>l  : set spell!<CR>
 nnoremap <silent> <leader>ve : tabedit $MYVIMRC<CR>
 nnoremap <silent> <leader>vs : source $MYVIMRC<CR>
+nnoremap <silent> <leader>u  : GundoToggle<CR>
 
 inoremap <C-c> 
 
