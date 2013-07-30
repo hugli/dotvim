@@ -1,5 +1,5 @@
 set backspace=indent,eol,start
-set clipboard^=unnamed
+" set clipboard^=unnamed
 set encoding=utf-8
 set fileformats=unix,dos,mac
 set hidden
@@ -44,7 +44,16 @@ function! <SID>SynStack()
 endfunc
 
 
-
+function! ClearRegisters()
+    let regs='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-="*+'
+    let i=0
+    while (i<strlen(regs))
+        exec 'let @'.regs[i].'=""'
+        let i=i+1
+    endwhile
+endfunction
+ 
+command! ClearRegisters call ClearRegisters()
 
 nnoremap / /\v
 vnoremap / /\v
@@ -77,6 +86,7 @@ nnoremap <silent> <leader>l  : set spell!<CR>
 nnoremap <silent> <leader>ve : tabedit $MYVIMRC<CR>
 nnoremap <silent> <leader>vs : source $MYVIMRC<CR>
 nnoremap <silent> <leader>u  : GundoToggle<CR>
+nnoremap <silent> <leader>ru : ClearRegisters<CR>
 
 inoremap <C-c> 
 

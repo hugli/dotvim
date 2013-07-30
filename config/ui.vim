@@ -147,6 +147,7 @@ let colourscheme = [
 for i in colourscheme"{{{
     exe "hi ".i[0]." ctermfg=".i[1]." ctermbg=".i[2]." cterm=".i[3]
 endfor
+unlet i
 "}}}
 hi Comment ctermfg=237 ctermbg=NONE cterm=NONE
 " }}}
