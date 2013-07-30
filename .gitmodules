@@ -43,3 +43,36 @@
 [submodule "bundle/vstar"]
 	path = bundle/vstar
 	url = git@github.com:bronson/vim-visual-star-search.git
+[submodule "bundle/textobj"]
+	path = bundle/textobj
+	url = git@github.com:kana/vim-textobj-user.git
+[submodule "bundle/textobj-entire"]
+	path = bundle/textobj-entire
+	url = git@github.com:kana/vim-textobj-entire.git
+[submodule "bundle/textobj-comment"]
+	path = bundle/textobj-comment
+	url = git@github.com:glts/vim-textobj-comment.git
+[submodule "bundle/textobj-diff"]
+	path = bundle/textobj-diff
+	url = git@github.com:kana/vim-textobj-diff.git
+[submodule "bundle/text-fold"]
+	path = bundle/text-fold
+	url = git@github.com:kana/vim-textobj-fold.git
+[submodule "bundle/text-function"]
+	path = bundle/text-function
+	url = git@github.com:kana/vim-textobj-function.git
+[submodule "bundle/text-indent"]
+	path = bundle/text-indent
+	url = git@github.com:kana/vim-textobj-indent.git
+[submodule "bundle/text-lastpat"]
+	path = bundle/text-lastpat
+	url = git@github.com:kana/vim-textobj-lastpat.git
+[submodule "bundle/text-line"]
+	path = bundle/text-line
+	url = git@github.com:kana/vim-textobj-line.git
+[submodule "bundle/text-syntax"]
+	path = bundle/text-syntax
+	url = git@github.com:kana/vim-textobj-syntax.git
+[submodule "bundle/text-url"]
+	path = bundle/text-url
+	url = git@github.com:mattn/vim-textobj-url.git
